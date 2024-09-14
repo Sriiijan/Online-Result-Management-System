@@ -1,4 +1,3 @@
-// JavaScript to validate the login form
 document.addEventListener("DOMContentLoaded", function() {
     const loginForm = document.querySelector("form");
 
@@ -8,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         if (username === "" || password === "") {
             alert("Both fields are required!");
-            event.preventDefault(); // Prevent form submission
+            event.preventDefault();
         }
     });
 });
